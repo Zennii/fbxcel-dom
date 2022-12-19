@@ -18,7 +18,7 @@ impl PolygonVertexIndex {
     }
 
     /// Returns the raw index.
-    pub(crate) fn to_usize(self) -> usize {
+    pub fn to_usize(self) -> usize {
         self.0
     }
 }
